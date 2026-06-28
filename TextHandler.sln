@@ -1,5 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37027.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler", "TextHandler\TextHandler.csproj", "{99BBC9BB-1465-4F25-AF8B-56A50579EE01}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Core", "TextHandler.Core\TextHandler.Core.csproj", "{5C489487-F5CF-41AC-BC7E-AF005082F99F}"
@@ -9,6 +12,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.WordCountPlugin", "TextHandler.Plugins.WordCountPlugin\TextHandler.Plugins.WordCountPlugin.csproj", "{491A735A-9AA5-492B-A54F-27D03D362B48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.LongestWord", "TextHandler.Plugins.LongestWord\TextHandler.Plugins.LongestWord.csproj", "{511CBB39-FEB6-4CB7-87DC-806EEE3847D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.CharCountPlugin", "TextHandler.Plugins.CharCountPlugin\TextHandler.Plugins.CharCountPlugin.csproj", "{F2658054-BCE6-448E-BFC2-EDC2C0ADB1F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.MostUsedWordsPlugin", "TextHandler.Plugins.MostUsedWordsPlugin\TextHandler.Plugins.MostUsedWordsPlugin.csproj", "{3891025B-ED10-4EFD-A9E7-DD739C826277}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +43,16 @@ Global
 		{511CBB39-FEB6-4CB7-87DC-806EEE3847D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{511CBB39-FEB6-4CB7-87DC-806EEE3847D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{511CBB39-FEB6-4CB7-87DC-806EEE3847D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2658054-BCE6-448E-BFC2-EDC2C0ADB1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2658054-BCE6-448E-BFC2-EDC2C0ADB1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2658054-BCE6-448E-BFC2-EDC2C0ADB1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2658054-BCE6-448E-BFC2-EDC2C0ADB1F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3891025B-ED10-4EFD-A9E7-DD739C826277}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3891025B-ED10-4EFD-A9E7-DD739C826277}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3891025B-ED10-4EFD-A9E7-DD739C826277}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3891025B-ED10-4EFD-A9E7-DD739C826277}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal
