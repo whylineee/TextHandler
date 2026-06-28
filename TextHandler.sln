@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler", "TextHandler\TextHandler.csproj", "{99BBC9BB-1465-4F25-AF8B-56A50579EE01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Core", "TextHandler.Core\TextHandler.Core.csproj", "{5C489487-F5CF-41AC-BC7E-AF005082F99F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.TestPlugin", "TextHandler.Plugins.TestPlugin\TextHandler.Plugins.TestPlugin.csproj", "{8C1029F2-74DF-4AEC-97D1-B6CA01DB5A54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.WordCountPlugin", "TextHandler.Plugins.WordCountPlugin\TextHandler.Plugins.WordCountPlugin.csproj", "{491A735A-9AA5-492B-A54F-27D03D362B48}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99BBC9BB-1465-4F25-AF8B-56A50579EE01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99BBC9BB-1465-4F25-AF8B-56A50579EE01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99BBC9BB-1465-4F25-AF8B-56A50579EE01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99BBC9BB-1465-4F25-AF8B-56A50579EE01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C489487-F5CF-41AC-BC7E-AF005082F99F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C489487-F5CF-41AC-BC7E-AF005082F99F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C489487-F5CF-41AC-BC7E-AF005082F99F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C489487-F5CF-41AC-BC7E-AF005082F99F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C1029F2-74DF-4AEC-97D1-B6CA01DB5A54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C1029F2-74DF-4AEC-97D1-B6CA01DB5A54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C1029F2-74DF-4AEC-97D1-B6CA01DB5A54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C1029F2-74DF-4AEC-97D1-B6CA01DB5A54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{491A735A-9AA5-492B-A54F-27D03D362B48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{491A735A-9AA5-492B-A54F-27D03D362B48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{491A735A-9AA5-492B-A54F-27D03D362B48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{491A735A-9AA5-492B-A54F-27D03D362B48}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
