@@ -9,7 +9,7 @@
  *  
  *  Kryskov Maksym kriskovmaksim6@gmail.com
  *
- *
+ *  Ivanov Yehor yehorivanovd@gmail.com
  *
  *
  *
