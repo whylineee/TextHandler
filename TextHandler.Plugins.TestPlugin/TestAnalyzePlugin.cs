@@ -1,6 +1,6 @@
 ﻿namespace TextHandler.Plugins.TestPlugin;
 
-public class TestPlugin : TextHandler.Core.ITextAnalyzePlugin
+public class TestAnalyzePlugin : TextHandler.Core.ITextAnalyzePlugin
 {
     public string Name => "Test Plugin";
 

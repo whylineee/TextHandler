@@ -73,8 +73,11 @@ const string text = """
 
 var analyzePlugins = new List<TextHandler.Core.ITextAnalyzePlugin>
 {
-    new TextHandler.Plugins.TestPlugin.TestPlugin(),
-    new TextHandler.Plugins.CharCountPlugin.WordCountPlugin()
+    new TextHandler.Plugins.TestPlugin.TestAnalyzePlugin(),
+    new TextHandler.Plugins.CharCountPlugin.WordCountPlugin(),
+    new TextHandler.Plugins.LongestWord(),
+    new TextHandler.Plugins.CharCounterPlugin(),
+    new TextHandler.Plugins.MostUsedWordsPlugin()
 };
 
 foreach (var plugin in analyzePlugins)
