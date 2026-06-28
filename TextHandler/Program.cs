@@ -125,7 +125,8 @@ foreach (var plugin in analyzePluginsDenys)
 Console.WriteLine("--- Editor Plugins ---");
 var editorPlugins = new List<TextHandler.Core.ITextEditorPlugin>
 {
-    new TextHandler.Plugins.UpperCasePlugin.UpperCasePlugin()
+    new TextHandler.Plugins.UpperCasePlugin.UpperCasePlugin(),
+    new TextHandler.Plugins.LowerCasePlugin.LowerCasePlugin()
 };
 
 foreach (var plugin in editorPlugins)

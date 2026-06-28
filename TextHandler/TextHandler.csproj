@@ -16,6 +16,7 @@
 	 <ProjectReference Include="..\TextHandler.Plugins.AverageWordLengthPlugin\TextHandler.Plugins.AverageWordLengthPlugin.csproj" />
 	<ProjectReference Include="..\TextHandler.Plugins.ShortestWordPlugin\TextHandler.Plugins.ShortestWordPlugin.csproj" />
     <ProjectReference Include="..\TextHandler.Plugins.UpperCasePlugin\TextHandler.Plugins.UpperCasePlugin.csproj" />
+    <ProjectReference Include="..\TextHandler.Plugins.LowerCasePlugin\TextHandler.Plugins.LowerCasePlugin.csproj" />
     </ItemGroup>
 
 </Project>
