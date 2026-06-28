@@ -75,7 +75,6 @@ var analyzePlugins = new List<TextHandler.Core.ITextAnalyzePlugin>
 {
     new TextHandler.Plugins.TestPlugin.TestPlugin(),
     new TextHandler.Plugins.CharCountPlugin.WordCountPlugin(),
-    new TextHandler.Plugins.TestPlugin.TestPlugin(),
     new TextHandler.Plugins.LongestWord()
 };
 
