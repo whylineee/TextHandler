@@ -48,3 +48,5 @@ desktop.ini
 ## dotnet publish
 *.pubxml
 *.pubxml.user
+/TextHandler.sln
+/.gitignore
