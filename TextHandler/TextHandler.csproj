@@ -9,6 +9,7 @@
 
     <ItemGroup>
       <ProjectReference Include="..\TextHandler.Plugins.TestPlugin\TextHandler.Plugins.TestPlugin.csproj" />
+      <ProjectReference Include="..\TextHandler.Plugins.CharCountPlugin\TextHandler.Plugins.CharCountPlugin.csproj" />
     </ItemGroup>
 
 </Project>
