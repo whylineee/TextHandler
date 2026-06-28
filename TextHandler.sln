@@ -1,4 +1,4 @@
-﻿
+
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.37027.9 d17.14
@@ -23,6 +23,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.AverageWordLengthPlugin", "TextHandler.Plugins.AverageWordLengthPlugin\TextHandler.Plugins.AverageWordLengthPlugin.csproj", "{C4AAA7FB-467F-45D8-97E9-E265C2FE323F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.ShortestWordPlugin", "TextHandler.Plugins.ShortestWordPlugin\TextHandler.Plugins.ShortestWordPlugin.csproj", "{536C2051-6B98-4BCC-8D18-ACC844ED2E38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.UpperCasePlugin", "TextHandler.Plugins.UpperCasePlugin\TextHandler.Plugins.UpperCasePlugin.csproj", "{A1B2C3D4-E5F6-47A8-B9C0-D1E2F3A4B5C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -58,6 +60,10 @@ Global
 		{3891025B-ED10-4EFD-A9E7-DD739C826277}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3891025B-ED10-4EFD-A9E7-DD739C826277}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3891025B-ED10-4EFD-A9E7-DD739C826277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1B2C3D4-E5F6-47A8-B9C0-D1E2F3A4B5C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1B2C3D4-E5F6-47A8-B9C0-D1E2F3A4B5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1B2C3D4-E5F6-47A8-B9C0-D1E2F3A4B5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1B2C3D4-E5F6-47A8-B9C0-D1E2F3A4B5C6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

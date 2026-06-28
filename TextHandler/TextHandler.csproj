@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
@@ -15,6 +15,7 @@
       <ProjectReference Include="..\TextHandler.Plugins.LongestWord\TextHandler.Plugins.LongestWord.csproj" />
 	 <ProjectReference Include="..\TextHandler.Plugins.AverageWordLengthPlugin\TextHandler.Plugins.AverageWordLengthPlugin.csproj" />
 	<ProjectReference Include="..\TextHandler.Plugins.ShortestWordPlugin\TextHandler.Plugins.ShortestWordPlugin.csproj" />
+    <ProjectReference Include="..\TextHandler.Plugins.UpperCasePlugin\TextHandler.Plugins.UpperCasePlugin.csproj" />
     </ItemGroup>
 
 </Project>

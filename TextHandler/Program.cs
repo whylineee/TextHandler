@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Project: TextHandler
  * 
  * Teacher: Vasyl Kovalov raid3r81@gmail.com
@@ -71,6 +71,10 @@ const string text = """
            
            """;
 
+
+
+
+// -----           ANALYZE PLUGINS             -----
 var analyzePlugins = new List<TextHandler.Core.ITextAnalyzePlugin>
 {
     new TextHandler.Plugins.TestPlugin.TestAnalyzePlugin(),
@@ -102,4 +106,34 @@ foreach (var plugin in analyzePluginsDenys)
 
     plugin.Analyze(text);
     plugin.PrintResult();
+}
+
+
+
+
+
+
+
+
+
+
+
+
+// ------          EDITOR PLUGINS             -----
+
+
+Console.WriteLine("--- Editor Plugins ---");
+var editorPlugins = new List<TextHandler.Core.ITextEditorPlugin>
+{
+    new TextHandler.Plugins.UpperCasePlugin.UpperCasePlugin()
+};
+
+foreach (var plugin in editorPlugins)
+{
+    Console.WriteLine($"Plugin: {plugin.Name}");
+    Console.WriteLine($"Description: {plugin.Description}");
+    var editedText = plugin.Edit(text);
+    Console.WriteLine("Edited Text: ");
+    Console.WriteLine(editedText);
+    Console.WriteLine();
 }
