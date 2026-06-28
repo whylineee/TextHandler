@@ -10,6 +10,9 @@
  *  Kryskov Maksym kriskovmaksim6@gmail.com
  *
  *  Ivanov Yehor yehorivanovd@gmail.com
+ *  
+ *  Denys Gvozdik gvozdikdenis3@gmail.com
+ 
  *
  *
  *
