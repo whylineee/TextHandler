@@ -1,0 +1,50 @@
+## Build output
+bin/
+obj/
+out/
+publish/
+
+## NuGet
+*.nupkg
+*.snupkg
+**/packages/
+!**/packages/build/
+*.nuspec
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+## Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+## JetBrains Rider
+.idea/
+*.sln.iml
+
+## Rider/ReSharper
+_ReSharper*/
+*.[Rr]e[Ss]harper
+*.DotSettings.user
+
+## MSTest
+TestResult.xml
+*.trx
+TestResults/
+
+## Logs
+*.log
+logs/
+
+## OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+## dotnet publish
+*.pubxml
+*.pubxml.user
