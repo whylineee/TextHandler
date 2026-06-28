@@ -6,4 +6,8 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\TextHandler.Core\TextHandler.Core.csproj" />
+    </ItemGroup>
+
 </Project>
