@@ -6,7 +6,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Core", "TextHan
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.TestPlugin", "TextHandler.Plugins.TestPlugin\TextHandler.Plugins.TestPlugin.csproj", "{8C1029F2-74DF-4AEC-97D1-B6CA01DB5A54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.CharCountPlugin", "TextHandler.Plugins.CharCountPlugin\TextHandler.Plugins.CharCountPlugin.csproj", "{491A735A-9AA5-492B-A54F-27D03D362B48}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.WordCountPlugin", "TextHandler.Plugins.WordCountPlugin\TextHandler.Plugins.WordCountPlugin.csproj", "{491A735A-9AA5-492B-A54F-27D03D362B48}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
