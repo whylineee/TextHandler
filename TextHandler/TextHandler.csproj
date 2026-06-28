@@ -10,6 +10,8 @@
     <ItemGroup>
       <ProjectReference Include="..\TextHandler.Plugins.TestPlugin\TextHandler.Plugins.TestPlugin.csproj" />
       <ProjectReference Include="..\TextHandler.Plugins.WordCountPlugin\TextHandler.Plugins.WordCountPlugin.csproj" />
+	 <ProjectReference Include="..\TextHandler.Plugins.AverageWordLengthPlugin\TextHandler.Plugins.AverageWordLengthPlugin.csproj" />
+	<ProjectReference Include="..\TextHandler.Plugins.ShortestWordPlugin\TextHandler.Plugins.ShortestWordPlugin.csproj" />
     </ItemGroup>
 
 </Project>

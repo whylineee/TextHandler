@@ -84,3 +84,19 @@ foreach (var plugin in analyzePlugins)
     plugin.Analyze(text);
     plugin.PrintResult();
 }
+
+
+var analyzePluginsDenys = new List<TextHandler.Core.ITextAnalyzePlugin>
+{
+    new TextHandler.Plugins.AverageWordLengthPlugin.AverageWordLengthPlugin(),
+    new TextHandler.Plugins.ShortestWordPlugin.ShortestWordPlugin()
+};
+
+foreach (var plugin in analyzePluginsDenys)
+{
+    Console.WriteLine($"Plugin: {plugin.Name}");
+    Console.WriteLine($"Description: {plugin.Description}");
+
+    plugin.Analyze(text);
+    plugin.PrintResult();
+}
