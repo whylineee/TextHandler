@@ -6,6 +6,8 @@
  *
  * Team:
  *  Marko Savyn msavin901001@gmail.com
+ *  
+ *  Kryskov Maksym kriskovmaksim6@gmail.com
  *
  *
  *
