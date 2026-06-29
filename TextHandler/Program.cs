@@ -126,7 +126,8 @@ Console.WriteLine("--- Editor Plugins ---");
 var editorPlugins = new List<TextHandler.Core.ITextEditorPlugin>
 {
     new TextHandler.Plugins.UpperCasePlugin.UpperCasePlugin(),
-    new TextHandler.Plugins.LowerCasePlugin.LowerCasePlugin()
+    new TextHandler.Plugins.LowerCasePlugin.LowerCasePlugin(),
+    new TextHandler.Plugins.RemoveDuplicateLinesPlugin.RemoveDuplicateLinesPlugin()
 };
 
 foreach (var plugin in editorPlugins)

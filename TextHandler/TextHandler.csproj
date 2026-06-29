@@ -17,6 +17,7 @@
 	<ProjectReference Include="..\TextHandler.Plugins.ShortestWordPlugin\TextHandler.Plugins.ShortestWordPlugin.csproj" />
     <ProjectReference Include="..\TextHandler.Plugins.UpperCasePlugin\TextHandler.Plugins.UpperCasePlugin.csproj" />
     <ProjectReference Include="..\TextHandler.Plugins.LowerCasePlugin\TextHandler.Plugins.LowerCasePlugin.csproj" />
+    <ProjectReference Include="..\TextHandler.Plugins.RemoveDuplicateLinesPlugin\TextHandler.Plugins.RemoveDuplicateLinesPlugin.csproj" />
     </ItemGroup>
 
 </Project>
