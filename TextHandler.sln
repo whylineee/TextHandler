@@ -1,8 +1,4 @@
-
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.14.37027.9 d17.14
-MinimumVisualStudioVersion = 10.0.40219.1
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.37411.7
 MinimumVisualStudioVersion = 10.0.40219.1
@@ -29,6 +25,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.LowerCasePlugin", "TextHandler.Plugins.LowerCasePlugin\TextHandler.Plugins.LowerCasePlugin.csproj", "{B2C3D4E5-F6A7-48B9-C0D1-E2F3A4B5C6D7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextHandler.Plugins.RemoveDuplicateLinesPlugin", "TextHandler.Plugins.RemoveDuplicateLinesPlugin\TextHandler.Plugins.RemoveDuplicateLinesPlugin.csproj", "{C3D4E5F6-1234-5678-90AB-CDEF12345678}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveExtraSpacesPlugin", "RemoveExtraSpacesPlugin\RemoveExtraSpacesPlugin.csproj", "{55DB9653-FF7D-40A9-9DD9-B1F962E1DBA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortLinesPlugin", "SortLinesPlugin\SortLinesPlugin.csproj", "{1C08B883-0ADD-41CE-9A16-BAB12A1426F1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -64,6 +64,14 @@ Global
 		{3891025B-ED10-4EFD-A9E7-DD739C826277}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3891025B-ED10-4EFD-A9E7-DD739C826277}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3891025B-ED10-4EFD-A9E7-DD739C826277}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4AAA7FB-467F-45D8-97E9-E265C2FE323F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4AAA7FB-467F-45D8-97E9-E265C2FE323F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4AAA7FB-467F-45D8-97E9-E265C2FE323F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4AAA7FB-467F-45D8-97E9-E265C2FE323F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{536C2051-6B98-4BCC-8D18-ACC844ED2E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536C2051-6B98-4BCC-8D18-ACC844ED2E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536C2051-6B98-4BCC-8D18-ACC844ED2E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536C2051-6B98-4BCC-8D18-ACC844ED2E38}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A1B2C3D4-E5F6-47A8-B9C0-D1E2F3A4B5C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A1B2C3D4-E5F6-47A8-B9C0-D1E2F3A4B5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A1B2C3D4-E5F6-47A8-B9C0-D1E2F3A4B5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -76,17 +84,14 @@ Global
 		{C3D4E5F6-1234-5678-90AB-CDEF12345678}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3D4E5F6-1234-5678-90AB-CDEF12345678}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3D4E5F6-1234-5678-90AB-CDEF12345678}.Release|Any CPU.Build.0 = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
-		{C4AAA7FB-467F-45D8-97E9-E265C2FE323F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C4AAA7FB-467F-45D8-97E9-E265C2FE323F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C4AAA7FB-467F-45D8-97E9-E265C2FE323F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C4AAA7FB-467F-45D8-97E9-E265C2FE323F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{536C2051-6B98-4BCC-8D18-ACC844ED2E38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{536C2051-6B98-4BCC-8D18-ACC844ED2E38}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{536C2051-6B98-4BCC-8D18-ACC844ED2E38}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{536C2051-6B98-4BCC-8D18-ACC844ED2E38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55DB9653-FF7D-40A9-9DD9-B1F962E1DBA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55DB9653-FF7D-40A9-9DD9-B1F962E1DBA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55DB9653-FF7D-40A9-9DD9-B1F962E1DBA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55DB9653-FF7D-40A9-9DD9-B1F962E1DBA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C08B883-0ADD-41CE-9A16-BAB12A1426F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C08B883-0ADD-41CE-9A16-BAB12A1426F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C08B883-0ADD-41CE-9A16-BAB12A1426F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C08B883-0ADD-41CE-9A16-BAB12A1426F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

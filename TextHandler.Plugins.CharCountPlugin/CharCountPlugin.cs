@@ -1,6 +1,4 @@
-﻿using System;
-using System.Linq;
-using TextHandler.Core;
+﻿using TextHandler.Core;
 
 namespace TextHandler.Plugins
 {
@@ -21,10 +19,8 @@ namespace TextHandler.Plugins
                 return;
             }
 
-            // Рахуємо всі символи, які є в тексті
             _totalCharsWithSpaces = text.Length;
 
-            // Більш ефективний підрахунок символів без пробілів та службових знаків за допомогою LINQ
             _totalCharsNoSpaces = text.Count(c => c != ' ' && c != '\r' && c != '\n' && c != '\t');
         }
 

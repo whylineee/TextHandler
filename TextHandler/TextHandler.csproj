@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
@@ -8,7 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\TextHandler.Plugins.CharCountPlugin\TextHandler.Plugins.CharCountPlugin.csproj" />
+      <ProjectReference Include="..\RemoveExtraSpacesPlugin\RemoveExtraSpacesPlugin.csproj" />
+      <ProjectReference Include="..\SortLinesPlugin\SortLinesPlugin.csproj" />
       <ProjectReference Include="..\TextHandler.Plugins.MostUsedWordsPlugin\TextHandler.Plugins.MostUsedWordsPlugin.csproj" />
       <ProjectReference Include="..\TextHandler.Plugins.TestPlugin\TextHandler.Plugins.TestPlugin.csproj" />
       <ProjectReference Include="..\TextHandler.Plugins.WordCountPlugin\TextHandler.Plugins.WordCountPlugin.csproj" />
@@ -17,7 +18,8 @@
 	<ProjectReference Include="..\TextHandler.Plugins.ShortestWordPlugin\TextHandler.Plugins.ShortestWordPlugin.csproj" />
     <ProjectReference Include="..\TextHandler.Plugins.UpperCasePlugin\TextHandler.Plugins.UpperCasePlugin.csproj" />
     <ProjectReference Include="..\TextHandler.Plugins.LowerCasePlugin\TextHandler.Plugins.LowerCasePlugin.csproj" />
-    <ProjectReference Include="..\TextHandler.Plugins.RemoveDuplicateLinesPlugin\TextHandler.Plugins.RemoveDuplicateLinesPlugin.csproj" />
-    </ItemGroup>
+		<ProjectReference Include="..\TextHandler.Plugins.CharCountPlugin\TextHandler.Plugins.CharCountPlugin.csproj" />
+		<ProjectReference Include="..\TextHandler.Plugins.RemoveDuplicateLinesPlugin\TextHandler.Plugins.RemoveDuplicateLinesPlugin.csproj" />	
+	</ItemGroup>
 
 </Project>

@@ -81,7 +81,10 @@ var analyzePlugins = new List<TextHandler.Core.ITextAnalyzePlugin>
     new TextHandler.Plugins.CharCountPlugin.WordCountPlugin(),
     new TextHandler.Plugins.LongestWord(),
     new TextHandler.Plugins.CharCounterPlugin(),
-    new TextHandler.Plugins.MostUsedWordsPlugin()
+    new TextHandler.Plugins.MostUsedWordsPlugin(),
+    new TextHandler.Plugins.RemoveExtraSpacesPlugin(),
+    new TextHandler.Plugins.SortLinesPlugin()
+
 };
 
 foreach (var plugin in analyzePlugins)
@@ -127,7 +130,7 @@ var editorPlugins = new List<TextHandler.Core.ITextEditorPlugin>
 {
     new TextHandler.Plugins.UpperCasePlugin.UpperCasePlugin(),
     new TextHandler.Plugins.LowerCasePlugin.LowerCasePlugin(),
-    new TextHandler.Plugins.RemoveDuplicateLinesPlugin.RemoveDuplicateLinesPlugin()
+    new TextHandler.Plugins.RemoveDuplicateLinesPlugin.RemoveDuplicateLinesPlugin(),
 };
 
 foreach (var plugin in editorPlugins)
